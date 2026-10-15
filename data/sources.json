@@ -1,0 +1,15 @@
+{
+  "publisher": "Nirali Vaghani and collaborator",
+  "source_page": "https://www.kaggle.com/datasets/niraliivaghani/flipkart-product-customer-reviews-dataset",
+  "retrieved_on": "2026-10-15",
+  "license_note": "Kaggle metadata: Database: Open Database, Contents: Database Contents (ODbL / DbCL).",
+  "raw_data_redistributed": false,
+  "files": [
+    {
+      "filename": "Dataset-SA.csv",
+      "download_url": "https://www.kaggle.com/api/v1/datasets/download/niraliivaghani/flipkart-product-customer-reviews-dataset",
+      "sha256": "76dbf0cd862347742506769d9c1e3c5b9bcbc540076474ec8a055a2f8b43a787",
+      "bytes": 33357584
+    }
+  ]
+}

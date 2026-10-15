@@ -1,0 +1,46 @@
+sentiment,term,coefficient
+negative,poor,7.921359605654866
+negative,worst,7.158892127155542
+negative,not good,6.729552054069278
+negative,no,6.510436348232489
+negative,bad,6.016630371337333
+negative,low,5.467676490688977
+negative,broken,5.437338108840561
+negative,disappointed,5.416590228774587
+negative,not,5.173907049767803
+negative,damage,4.992812198533393
+negative,damaged,4.949515416836786
+negative,problem,4.753640647979441
+negative,useless,4.520912114006338
+negative,not satisfied,4.424261224511842
+negative,waste,4.411504836821938
+neutral,worst delivery,3.286752229168149
+neutral,awesome material,3.002084698670155
+neutral,happy thanku,2.939406461350469
+neutral,ok,2.91456535416399
+neutral,delivery awesome,2.907028569033508
+neutral,angle,2.9055405901225027
+neutral,plates bowls,2.845411532714787
+neutral,okbut,2.8163884795892433
+neutral,product base,2.736532230327437
+neutral,lining,2.725225891661381
+neutral,average,2.634449464573674
+neutral,leaking,2.625261765718395
+neutral,quality little,2.6201803497295795
+neutral,not,2.578395561411342
+neutral,ball,2.5754091238130723
+positive,nice,8.748765069194558
+positive,good,8.662017132293709
+positive,best,8.389876583685286
+positive,not bad,7.043261842359589
+positive,awesome,6.309813285222904
+positive,great,5.890563744268101
+positive,excellent,5.783668687995654
+positive,happy,5.709220880108962
+positive,love,5.62272521662071
+positive,super,5.5312021633131865
+positive,amazing,5.036495765110412
+positive,loved,4.599103987872308
+positive,perfect,4.5589689106321405
+positive,thanks,4.249015723183424
+positive,easy,4.06566191228264

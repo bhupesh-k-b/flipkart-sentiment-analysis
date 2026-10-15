@@ -1,0 +1,91 @@
+{
+  "source_rows": 205052,
+  "unique_clean_texts": 91814,
+  "conflicting_texts_removed": 964,
+  "sampled_unique_reviews": 45000,
+  "train_rows": 27000,
+  "validation_rows": 9000,
+  "test_rows": 9000,
+  "seed": 42,
+  "labels": [
+    "negative",
+    "neutral",
+    "positive"
+  ],
+  "validation_scores": {
+    "majority_baseline": {
+      "accuracy": 0.747,
+      "macro_f1": 0.2850601030337722,
+      "weighted_f1": 0.6388196908986835
+    },
+    "logistic_regression": {
+      "accuracy": 0.8601111111111112,
+      "macro_f1": 0.6953819456734655,
+      "weighted_f1": 0.8742166921928014
+    },
+    "linear_svm": {
+      "accuracy": 0.8838888888888888,
+      "macro_f1": 0.6938767954940301,
+      "weighted_f1": 0.8840247797559271
+    }
+  },
+  "selection_metric": "validation macro_f1",
+  "selected_model": "logistic_regression",
+  "test": {
+    "accuracy": 0.8681111111111111,
+    "macro_f1": 0.7015586684366856,
+    "weighted_f1": 0.8802481730611886
+  },
+  "accuracy_95pct_wilson_interval": [
+    0.8609631180891093,
+    0.8749449973862891
+  ],
+  "classification_report": {
+    "negative": {
+      "precision": 0.8011634056054997,
+      "recall": 0.8440111420612814,
+      "f1-score": 0.8220293000542593,
+      "support": 1795.0
+    },
+    "neutral": {
+      "precision": 0.2747909199522103,
+      "recall": 0.47717842323651455,
+      "f1-score": 0.34874905231235787,
+      "support": 482.0
+    },
+    "positive": {
+      "precision": 0.9674744897959183,
+      "recall": 0.9025732559869106,
+      "f1-score": 0.9338976529434397,
+      "support": 6723.0
+    },
+    "accuracy": 0.8681111111111111,
+    "macro avg": {
+      "precision": 0.6811429384512094,
+      "recall": 0.7412542737615689,
+      "f1-score": 0.7015586684366856,
+      "support": 9000.0
+    },
+    "weighted avg": {
+      "precision": 0.8972076145974218,
+      "recall": 0.8681111111111111,
+      "f1-score": 0.8802481730611886,
+      "support": 9000.0
+    }
+  },
+  "test_class_counts": {
+    "positive": 6723,
+    "negative": 1795,
+    "neutral": 482
+  },
+  "source_sha256": "76dbf0cd862347742506769d9c1e3c5b9bcbc540076474ec8a055a2f8b43a787",
+  "python": "3.13.13",
+  "sklearn": "1.9.0",
+  "label_provenance": "Publisher used VADER on Summary, followed by manual checking; weak labels, not independent human ground truth.",
+  "limitations": [
+    "Exact normalized duplicates and conflicting texts removed before split.",
+    "Random in-domain split; products and near-duplicate language may occur across splits.",
+    "No claim of performance on new products or future reviews.",
+    "TF-IDF classification learns publisher sentiment labels; ratings are not features."
+  ]
+}
